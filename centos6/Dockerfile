@@ -1,5 +1,5 @@
 FROM centos:6
-LABEL maintainer="Julian Nonino <noninojulian@outlook.com>"
+LABEL maintainer="Julian Nonino <noninojulian@gmail.com>"
 
 RUN yum update --assumeyes && \
     yum install --assumeyes epel-release initscripts && \
